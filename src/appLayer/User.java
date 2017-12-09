@@ -1,5 +1,7 @@
 package appLayer;
 
+import dataLayer.DB_user;
+
 public class User {
     private String login;
     private String password;
@@ -10,6 +12,7 @@ public class User {
     }
 
     public boolean isValid(){
-        return login.equals("John") && password.equals("Doe");
+        DB_user db_user = new DB_user();
+        return db_user.isValid(login, password);
     }
 }
