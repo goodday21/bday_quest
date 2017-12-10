@@ -14,8 +14,8 @@
     <h1>Welcome, suka</h1>
 
     <form action="/login" method="post">
-        login-name: <input type="text" name="login" width="30"/>
-        login-password: <input type="password" name="password" width="15"/>
+        Login: <input type="text" name="login" width="30"/>
+        Password: <input type="password" name="password" width="15"/>
         <input type="submit" value="login"/>
     </form>
 
