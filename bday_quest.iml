@@ -29,6 +29,8 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="mysql-connector-java-5.1.45-bin" level="project" />
+    <orderEntry type="library" exported="" name="javax.ws.rs-api-2.0.1" level="project" />
+    <orderEntry type="library" exported="" name="aopalliance-repackaged-2.5.0-b32" level="project" />
+    <orderEntry type="library" exported="" name="jersey-client" level="project" />
   </component>
 </module>

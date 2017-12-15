@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 @WebServlet(name = "login")
-public class login extends javax.servlet.http.HttpServlet {
+public class Login extends javax.servlet.http.HttpServlet {
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
         request.setAttribute("login", request.getParameter("login"));
         request.setAttribute("password", request.getParameter("password"));
